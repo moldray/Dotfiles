@@ -1,14 +1,13 @@
-" Configuration file for vim
-set modelines=0		" CVE-2007-2438
+" Vim configuration file, in effect when invoked as "vi". The aim of this
+" configuration file is to provide a Vim environment as compatible with the
+" original vi as possible. Note that ~/.vimrc configuration files as other
+" configuration files in the runtimepath are still sourced.
+" When Vim is invoked differently ("vim", "view", "evim", ...) this file is
+" _not_ sourced; /etc/vim/vimrc and/or /etc/vim/gvimrc are.
 
-" Normally we use vim-extensions. If you want true vi-compatibility
-" remove change the following statements
-set backspace=2		" more powerful backspacing
-
-" Don't write backup file if vim is being called by "crontab -e"
-au BufWrite /private/tmp/crontab.* set nowritebackup nobackup
-" Don't write backup file if vim is being called by "chpass"
-au BufWrite /private/etc/pw.* set nowritebackup nobackup
+" Debian system-wide default configuration Vim
+set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vim/vim80,/usr/share/vim/vimfiles/after,/var/lib/vim/addons/after,~/.vim/after
+set compatible
 
 "interface
 set number
@@ -28,4 +27,5 @@ set shiftwidth=2
 set softtabstop=2
 set showtabline=1
 set shortmess=atI
-syntax on
+set guifont=Menlo:h14
+
