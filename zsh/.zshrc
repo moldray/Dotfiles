@@ -75,9 +75,13 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# All PATH
+# golang
+[[ -s "/home/mold/.gvm/scripts/gvm" ]] && source "/home/mold/.gvm/scripts/gvm" 
 
-export PATH=$PATH:/home/mold/.shell
+# All PATH
+export SCRIPT=/home/mold/.script
+export GOPATH=/home/mold/Workspace/go
+export PATH=$PATH:$SCRIPT:$GOPATH/bin
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -89,6 +93,6 @@ export PATH=$PATH:/home/mold/.shell
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias e="emacs -nw"
-alias ff="firefox&"
+alias ff="nohup firefox &"
 alias spd="systemctl suspend"
 
