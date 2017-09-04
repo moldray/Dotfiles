@@ -1,4 +1,3 @@
-set compatible
 set number
 set nowrap
 set hlsearch
@@ -9,6 +8,7 @@ set noswapfile
 set autoindent
 set smartindent
 set nocompatible
+
 set go=
 set tabstop=2
 set scrolloff=2
