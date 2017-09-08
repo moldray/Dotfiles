@@ -80,7 +80,7 @@ source $ZSH/oh-my-zsh.sh
 
 # All PATH
 export SCRIPT=/home/mold/.script
-export GOPATH=/home/mold/Workspace/go
+export GOPATH=/home/mold/Workspace/golang
 export PATH=$PATH:$SCRIPT:$GOPATH/bin
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
