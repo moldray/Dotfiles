@@ -31,7 +31,7 @@ end
 
 ls(args) = begin
   for item in onepw
-    println("$(align(item.id, 16))$(align(item.tag, 8))$(align(item.pwd, 16))")
+    println("$(align(item.id, 16))$(align(item.tag, 16))$(align(item.pwd, 32))")
   end
 end
 
@@ -41,14 +41,14 @@ rm(args) = begin
       splice!(onepw, i)
     end
   end
-  ls()
+  ls([])
   save(onepw)
 end
 
 add(args) = begin
   id = num2hex(time())[9:end]
   push!(onepw, Onepw(id, args[1], args[2]))
-  ls()
+  ls([])
   save(onepw)
 end
 
@@ -76,7 +76,7 @@ handler = Dict(
 
 main() = begin
   if length(ARGS) == 0
-    ls()
+    ls([])
   else
     get(handler, ARGS[1], usage)(ARGS[2:end])
   end
