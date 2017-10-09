@@ -141,7 +141,7 @@ end
 
 main() = begin
   if length(ARGS) == 0
-    usage()
+    usage([])
   else
     handler(ARGS)
   end
