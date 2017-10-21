@@ -3,6 +3,11 @@ keysym Caps_Lock = Escape
 keysym Escape = Caps_Lock
 add Lock = Caps_Lock
 
+keysym Shift_R = Up
+keysym Super_R = Left
+keysym Control_R = Right
+keysym Menu = Down
+
 keysym Scroll_Lock = 2
 keysym Pause = 3
 keysym Insert = 4
