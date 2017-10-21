@@ -79,7 +79,7 @@ source $ZSH/oh-my-zsh.sh
 [[ -s "/home/mold/.gvm/scripts/gvm" ]] && source "/home/mold/.gvm/scripts/gvm" 
 
 # All PATH
-export SCRIPT=/home/mold/.script
+export SCRIPT=/home/mold/.bin
 export GOPATH=/home/mold/Workspace/golang
 export PATH=$PATH:$SCRIPT:$GOPATH/bin
 
