@@ -3,6 +3,10 @@ keysym Caps_Lock = Escape
 keysym Escape = Caps_Lock
 add Lock = Caps_Lock
 
+remove shift = Shift_R
+remove control = Control_R
+remove mod4 = Super_R
+
 keysym Shift_R = Up
 keysym Super_R = Left
 keysym Control_R = Right
