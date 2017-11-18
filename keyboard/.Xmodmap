@@ -1,24 +1,24 @@
 clear Lock
 keysym Caps_Lock = Escape
-keysym Escape = Caps_Lock
-add Lock = Caps_Lock
+! keysym Escape = Caps_Lock
+! add Lock = Caps_Lock
 
-remove shift = Shift_R
-remove control = Control_R
-remove mod4 = Super_R
+! remove shift = Shift_R
+! remove control = Control_R
+! remove mod4 = Super_R
 
-keysym Shift_R = Up
-keysym Super_R = Left
-keysym Control_R = Right
-keysym Menu = Down
+! keysym Shift_R = Up
+! keysym Super_R = Left
+! keysym Control_R = Right
+! keysym Menu = Down
 
-keysym Scroll_Lock = 2
-keysym Pause = 3
-keysym Insert = 4
-keysym Home = 5
-keysym Prior = 6
-keysym Delete = 7
-keysym End = 8
-keysym Next = 9
+! keysym Scroll_Lock = 2
+! keysym Pause = 3
+! keysym Insert = 4
+! keysym Home = 5
+! keysym Prior = 6
+! keysym Delete = 7
+! keysym End = 8
+! keysym Next = 9
 
-keycode 107 = 1
+! keycode 107 = 1
