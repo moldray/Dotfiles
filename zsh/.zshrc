@@ -101,4 +101,4 @@ alias e="emacs -nw"
 alias ff="nohup firefox &"
 alias spd="systemctl suspend"
 alias esc="xmodmap ~/.Xmodmap"
-
+alias jvm='/home/mold/.juliavm/juliavm'
