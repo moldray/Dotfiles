@@ -102,3 +102,4 @@ alias ff="nohup firefox &"
 alias spd="systemctl suspend"
 alias esc="xmodmap ~/.Xmodmap"
 alias jvm='/home/mold/.juliavm/juliavm'
+alias julia='/home/mold/.juliavm/dists/0.6.1/bin/julia -q'
