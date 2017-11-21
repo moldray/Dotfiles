@@ -85,8 +85,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # All PATH
 export SCRIPT=/home/mold/.bin
+export JULIA_PATH=/home/mold/.jill
 export GOPATH=/home/mold/Workspace/golang
-export PATH=$PATH:$SCRIPT:$GOPATH/bin
+export PATH=$PATH:$SCRIPT:$JULIA_PATH:$GOPATH/bin
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -100,4 +101,5 @@ export PATH=$PATH:$SCRIPT:$GOPATH/bin
 alias e="emacs -nw"
 alias ff="nohup firefox &"
 alias spd="systemctl suspend"
+alias esc="xmodmap ~/.Xmodmap"
 
