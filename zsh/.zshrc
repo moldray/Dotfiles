@@ -97,7 +97,9 @@ export PATH=$PATH:$SCRIPT:$GOPATH/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias e="emacs -nw"
+alias e="emacs"
 alias ff="nohup firefox &"
 alias spd="systemctl suspend"
-
+alias esc="xmodmap ~/.Xmodmap"
+alias jvm='/home/mold/.juliavm/juliavm'
+alias julia='/home/mold/.juliavm/dists/0.6.1/bin/julia -q'
