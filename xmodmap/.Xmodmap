@@ -14,9 +14,11 @@ add Lock = Caps_Lock
 
 ! keysym Scroll_Lock = 2
 ! keysym Pause = 3
-! keysym Insert = 4
-! keysym Home = 5
-! keysym Prior = 6
+
+! keysym Insert = Return
+! keysym Home = comma
+! keysym Prior = period
+
 ! keysym Delete = 7
 ! keysym End = 8
 ! keysym Next = 9
