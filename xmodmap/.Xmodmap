@@ -3,6 +3,11 @@ keysym Caps_Lock = Escape
 keysym Escape = Caps_Lock
 add Lock = Caps_Lock
 
+keysym Insert = Return
+keysym Home = comma
+keysym Prior = period
+
+
 ! remove shift = Shift_R
 ! remove control = Control_R
 ! remove mod4 = Super_R
@@ -14,11 +19,6 @@ add Lock = Caps_Lock
 
 ! keysym Scroll_Lock = 2
 ! keysym Pause = 3
-
-! keysym Insert = Return
-! keysym Home = comma
-! keysym Prior = period
-
 ! keysym Delete = 7
 ! keysym End = 8
 ! keysym Next = 9

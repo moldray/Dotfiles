@@ -75,18 +75,11 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-# golang
-[[ -s "/home/mold/.gvm/scripts/gvm" ]] && source "/home/mold/.gvm/scripts/gvm" 
-
-# nvm
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # All PATH
 export SCRIPT=/home/mold/.bin
-export GOPATH=/home/mold/Workspace/golang
-export PATH=$PATH:$SCRIPT:$GOPATH/bin
+export PATH=$PATH:$SCRIPT
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -97,9 +90,6 @@ export PATH=$PATH:$SCRIPT:$GOPATH/bin
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias e="emacs"
-alias ff="nohup firefox &"
 alias spd="systemctl suspend"
-alias esc="xmodmap ~/.Xmodmap"
 alias jvm='/home/mold/.juliavm/juliavm'
 alias julia='/home/mold/.juliavm/dists/0.6.1/bin/julia -q'
