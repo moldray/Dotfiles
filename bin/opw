@@ -1,4 +1,4 @@
-#!/usr/local/bin/julia -q --color=yes
+#!/usr/local/bin/julia --color=yes
 
 
 dataFile = Pkg.dir(homedir(), ".jonepw.jls")

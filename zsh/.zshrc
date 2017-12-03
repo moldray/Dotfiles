@@ -92,4 +92,4 @@ export PATH=$PATH:$SCRIPT
 
 alias spd="systemctl suspend"
 alias jvm='/home/mold/.juliavm/juliavm'
-alias julia='/home/mold/.juliavm/dists/0.6.1/bin/julia -q'
+alias julia='julia -q'
